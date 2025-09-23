@@ -3,3 +3,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.nav, img{
+    height: 100px;
+    width: auto;
+    max-width: fit-content;
+}
+
+
+
+.textBox{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+    font-weight: 100;
+    word-spacing: 4;
+    text-transform: capitalize;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+
+    }
+
+.row ul{
+    display: flex;
+    
+    align-items: center;
+}
+
+
+.row li{
+    list-style-type: none; 
+    padding: 0 30px;
+   
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline orange;
+    text-underline-offset: 6px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 200px;
+    border-color: #555;
+    color: #fff;
+}
+
+.btn:hover, btn:active{
+    background-color: orange;
+}
+
+.btn-full{
+    background-color: orange;
+    border: 1px solid orange;
+    color: #fff;
+}
+
+.btn-ghost{
+    border: 1px;
+    color: orange;
+    transition: color 0.2;
+}
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid orange;
+}
+
+.btn-ghost:hover, .btn-ghost:active{
+    border: 1px solid orange;
+    color: #fff;
+}
