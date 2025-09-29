@@ -58,7 +58,6 @@ header{
     font-size: 125%;
     font-weight: 100;
     word-spacing: 4;
-    text-transform: capitalize;
 }
 .textBox h1{
     text-transform: uppercase;
@@ -232,10 +231,107 @@ nav a:hover{
     margin-top: 20px;
 }
 
-
-.hiwBody{
-    display: flex;
-    flex-direction: column;
-
+.hiw{
+    background-color: #e0e0e0;
 }
 
+.hiwBody{
+    display: flex; 
+    justify-content: end;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.hiwTexts{
+    padding-left: 50px;
+}
+.phone img{
+    width: 250px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+
+.steps{
+    display: flex;
+    align-items: end;
+    gap: 3px;
+    padding: 25px;
+}
+
+.steps div{
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    font-size: 35px;
+}
+
+.hiwFooter img{
+    height: 50px;
+    width: auto;
+}
+
+.hiwFooter{
+    display: flex;
+    padding-left: 25px;
+    padding-top: 75px;
+}
+
+
+
+.wCHeader h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: orange;
+    content: " ";
+    margin: auto;
+    margin-top: 20px;
+}
+.wCHeader{
+    text-align: center;
+    padding: 20px;
+}
+
+.wCBody{
+    padding: 0px 100px;
+}
+
+.box{
+    padding: 20px;
+}
+
+.boxes{
+    display: flex;
+    max-width: 100%;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+
+.sec3 a{
+    color: orange;
+}
+
+.workingCities{
+    background-color: white;
+    height: 500px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.sec1, .sec2, .sec3{
+    padding: 3px;
+}
+
+.wCIcon{
+    color: orange;
+}
+
+.sec3 .wCIcon:hover{
+    transition: color 0.3s ease;
+    color: rgb(29, 161, 242);
+}
