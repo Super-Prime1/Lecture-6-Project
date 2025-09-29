@@ -37,6 +37,7 @@ header{
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+    text-transform: uppercase;
 }
 
 .nav, img{
@@ -54,12 +55,14 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 150%;
+    font-size: 125%;
     font-weight: 100;
     word-spacing: 4;
     text-transform: capitalize;
 }
-
+.textBox h1{
+    text-transform: uppercase;
+}
 .row{
     display: flex;
     justify-content: space-evenly;
@@ -82,6 +85,7 @@ header{
 header a{
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav a:hover{
@@ -122,3 +126,116 @@ nav a:hover{
     border: 1px solid orange;
     color: #fff;
 }
+
+
+.body1 h2{
+    text-transform: uppercase;
+}
+
+.body1 h3{
+    text-transform: uppercase;
+}
+
+.bodyHeader{
+    text-align: center;
+    padding: 20px;
+}
+.bodyHeader p{
+    padding: 10px 0px 20px 0px;
+}
+
+.bodyHeader h2{
+    padding: 20px 0px 10px 0px;
+    font-size: 50px;
+}
+
+.bodyHeader h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: orange;
+    content: " ";
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bodyBoxs{
+    display: flex;
+    height: 300px;
+
+}
+
+.box{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box p{
+    padding: 10px;
+}
+
+.box h3{
+    padding: 10px;
+}
+
+.ionImg{
+    font-size: 65px;
+    color: orange;
+    --ionicon-stroke-width: 25px;
+}
+
+
+.favMeals{
+    padding-top: 20px;
+}
+
+.group1, .group2{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.favImgs{
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+
+.favImgs img{
+    width: 100%;
+    height: auto;
+}
+
+.favImgs:hover{
+    opacity: 1;
+    transform: scale(1.05); 
+}
+
+.hiwHeader{
+
+    text-align: center;
+    padding: 20px;
+}
+
+.hiwHeader h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: orange;
+    content: " ";
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.hiwBody{
+    display: flex;
+    flex-direction: column;
+
+}
+
