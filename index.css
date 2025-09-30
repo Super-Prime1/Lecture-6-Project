@@ -528,3 +528,240 @@ nav a:hover{
     background-color: rgb(240, 240, 240);
     height: 700px;
 }
+
+
+.map{
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+ position: relative;
+}
+
+.map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 0;
+  pointer-events: none;
+}
+
+
+.contact{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.notMap{
+    width: 50%;
+    height: 550px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: rgba(240, 240, 240, 0.7);
+}
+
+.conHeader{
+    text-align: center;
+    padding: 20px;
+}
+
+.conHeader h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: orange;
+    content: " ";
+    margin: auto;
+    margin-top: 20px;   
+}
+
+.conHeader{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.conHeader h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.name{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.name p{
+    padding-right: 200px;
+}
+
+
+.email{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.email p{
+    padding-right: 205px;
+}
+
+.find{
+    display: flex;
+    padding-bottom: 20px;   
+    padding-left: 40px;
+}
+.find p{
+    padding-right: 78px;
+}
+
+.news{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.news p{
+    padding-right: 15px;
+}
+
+.feedback{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    
+}
+
+.feedback p{
+    padding-right: 127px;
+}
+
+.submit{
+    display: flex;
+}
+
+.name input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.email input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.find select{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.checkbox{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-left: 133px;
+    margin-right: 20px;
+
+}
+
+.feedback textarea{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.submit{
+    width: 50px;
+    height: 40px;
+    margin-left: 292px;
+}
+
+.name input:focus{
+    outline: none;
+}
+
+.email input:focus{
+    outline: none;
+}
+
+.find select:focus{
+    outline: none;
+}
+
+.feedback textarea:focus{
+    outline: none;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.links1 ul{
+    display: flex;
+    padding: 50px;
+    list-style: none;
+}
+
+.links1 a{
+    padding: 0 20px;
+}
+
+.links2 ul{
+    display: flex;
+    padding: 50px;
+    padding-left: 475px;
+    list-style: none;
+}
+
+.fdooter{
+    padding: 10px;
+}
+
+.dooter1:hover{
+    color: rgb(48, 48, 222);
+}
+
+.dooter2:hover{
+    color: rgb(66, 163, 233);
+}
+
+.dooter3:hover{
+    color:red;
+}
+
+.dooter4:hover{
+    color: #de4d65;
+}
+.links{
+    display: flex;
+}
+
+.copyright{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
